@@ -30,7 +30,7 @@ export default function PostPage(props: PageProps<Post>) {
             day: "numeric",
           })}
         </time>
-        <div
+        <div data-color-mode="dark" data-dark-theme="dark"
           class="mt-8 markdown-body"
           dangerouslySetInnerHTML={{ __html: render(post.content) }}
         />
